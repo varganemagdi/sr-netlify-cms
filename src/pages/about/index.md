@@ -16,17 +16,12 @@ padding-bottom: 4rem;
 .discount-section1 {
 text-align: center;
 padding: 16rem 0  15rem 0;
-color: #fff;
+color: white;
 background: url("https://www.shoprenter.hu/images//discount-bg.jpg") top left no-repeat;
 }
 .discount-section1 h1 {
 font-size: 5rem;
 font-weight: 800;
-}
-@media screen and (max-width: 480px) {
-.discount-section1 {
-text-align: center;
-padding: 12rem 0;
 }
 .discount-section1 h1 {
 font-size: 4rem;
@@ -36,7 +31,7 @@ font-size: 4rem;
 font-size: 18px;
 font-weight: 600;
 margin: 0;
-color: #fff;
+color: white;
 }
 .discount-section2  .ds-inner {
 display: flex;
@@ -45,10 +40,6 @@ max-width: 1170px;
 margin: auto;
 border-bottom: 1px solid #ccc;
 padding: 0 10%;
-}
-@media screen and (max-width: 480px) {
-.discount-section2  .ds-inner {
-padding: 0;
 }
 }
 .discount-section2 a,
@@ -66,7 +57,7 @@ transition: transform .4s ease-in-out;
 .discount-section2 a:hover,
 .discount-section2 .active {
 text-decoration: none;
-color: #282828;
+color: grey;
 font-weight: 800;
 }
 .discount-section2 a:after,
@@ -74,7 +65,7 @@ font-weight: 800;
 .discount-section2 a:hover:after{
 content: "";
 height: 1px;
-background-color: #282828;
+background-color: grey;
 display: block;
 transition: transform .4s ease-in-out;
 bottom: -1px;
@@ -93,10 +84,7 @@ flex-flow: row wrap;
 max-width: 1254px;
 margin: 3rem auto;
 }
-@media screen and (max-width: 480px) {
-.discount-section3  .ds-inner {
-padding: 0 12px;
-}
+
 }
 .discount-item {
 max-width: 360px;
@@ -105,7 +93,7 @@ min-height: 440px;
 margin: 3rem auto;
 border-radius: 4px;
 box-shadow: 0px 35px 50px 0 rgba(10, 47, 68, 0.15);
-background-color: #ffffff;
+background-color: white;
 transition: all .4s ease-in-out;
 }
 .discount-item:hover {
@@ -140,14 +128,14 @@ font-weight: 800;
 line-height: 1.4;
 letter-spacing: 0.5px;
 text-align: left;
-color: #282828;
+color: grey;
 }
 .discount-item p {
 font-size: 14px;
 line-height: 1.64;
 letter-spacing: 0.28px;
 text-align: left;
-color: #9a9a9a;
+color: green;
 padding: 0 3rem;
 font-weight: 500;
 }
